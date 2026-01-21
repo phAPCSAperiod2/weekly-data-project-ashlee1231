@@ -7,7 +7,6 @@ public class WeeklyData {
 
     // Instance Variables
     private double[] hoursList;
-    private double goal;
 
     /**
      * Constructs a WeeklyData object by taking in an array of values
