@@ -52,9 +52,12 @@ public class WeeklyData {
     /**
      * Finds and returns the highest value in the data array.
      *
-     * @return the maximum value
+     * @return the maximum value, or 0.0 if the array is empty
      */
     public double getMax() {
+        if (hoursList.length == 0) {
+            return 0.0;
+        }
         double max = hoursList[0];
         for (int i = 1; i < hoursList.length; i++) {
             if (hoursList[i] > max) {
@@ -67,9 +70,12 @@ public class WeeklyData {
     /**
      * Finds and returns the lowest value in the data array.
      *
-     * @return the minimum value
+     * @return the minimum value, or 0.0 if the array is empty
      */
     public double getMin() {
+        if (hoursList.length == 0) {
+            return 0.0;
+        }
         double min = hoursList[0];
         for (int i = 1; i < hoursList.length; i++) {
             if (hoursList[i] < min) {
@@ -87,7 +93,7 @@ public class WeeklyData {
      * Day 2: 6200
      * Day 3: 5100
      *
-     * @return a formatted String representing the week's data
+     * @return a formatted finalString representing the week's data
      */
     @Override
     public String toString() {
