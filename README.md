@@ -150,33 +150,32 @@ Before submitting, confirm that:
 ---
 
 ## 🧪 Sample Output  
-### Example: Step Tracker
-Enter steps for day 1: 8500
-Enter steps for day 2: 10000
-Enter steps for day 3: 9200
-Enter steps for day 4: 11000
-Enter steps for day 5: 7000
-Enter steps for day 6: 12000
-Enter steps for day 7: 9800
+### Example: Screen Time Tracker
+Enter screentime hours for Monday: 2.5
+Enter screentime hours for Tuesday: 3.0
+Enter screentime hours for Wednesday: 2.8
+Enter screentime hours for Thursday: 4.0
+Enter screentime hours for Friday: 1.5
+Enter screentime hours for Saturday: 5.0
+Enter screentime hours for Sunday: 3.2
 
 Weekly Summary:
-Total Steps: 66,500
-Average Steps: 9,500.00
-Highest Day: 12,000
-Lowest Day: 7,000
+Total Screentime: 22.0 hours
+Average Screentime: 3.14 hours
+Highest Day: 5.0 hours
+Lowest Day: 1.5 hours
 
 All Daily Values:
-Day 1: 8,500
-Day 2: 10,000
-Day 3: 9,200
-Day 4: 11,000
-Day 5: 7,000
-Day 6: 12,000
-Day 7: 9,800
+Day 1: 2.5
+Day 2: 3.0
+Day 3: 2.8
+Day 4: 4.0
+Day 5: 1.5
+Day 6: 5.0
+Day 7: 3.2
 
 Results:
-You met your goal 3 days this week!
-Next week, try to go for a walk after school
+You spent 2.0 hours over your weekly screentime goal. Try to cut back next week!
 
 ---
 
@@ -190,7 +189,15 @@ Next week, try to go for a walk after school
 
 ---
 
-## 📄 Submission Instructions
+## � Author Information
+
+- **Name:** Ashlynn Kirchoff
+- **Project Theme:** Screen Time Tracker
+- **Description:** This program helps users track and analyze their weekly screen time. It prompts for a weekly goal and daily screen time hours, then provides statistics like total, average, max, and min screen time, along with a comparison to the goal.
+
+---
+
+## �📄 Submission Instructions
 
 You must:
 
